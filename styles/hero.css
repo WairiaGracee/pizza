@@ -1,0 +1,44 @@
+/* HERO SECTION */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem 1rem 2rem;
+  background: url('../assets/top-view-pizza-stand-with-tomatoes-olives-bell-peppers-black-table.jpg') center/cover no-repeat;
+  min-height: 100vh;
+}
+
+.hero h2 {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+}
+
+.hero p {
+  max-width: 400px;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width: 768px){
+    .hero {
+        flex-direction: row;
+        align-items: center;
+    }
+    .hero h1 {
+        font-size: 3rem;
+    }
+}
